@@ -179,3 +179,53 @@ nav ul li a:hover {
   background-color: #FF6B35;
   color: white;
 }
+
+/* COUNTER */
+.counter-box {
+  text-align: center;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.counter-box h3 {
+  font-size: 72px;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+}
+
+#count-btn {
+  padding: 12px 32px;
+  background-color: #FF6B35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: background 0.2s;
+}
+
+#count-btn:hover {
+  background-color: #e55a25;
+}
+
+#reset-btn {
+  padding: 12px 32px;
+  background-color: transparent;
+  color: #FF6B35;
+  border: 2px solid #FF6B35;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#reset-btn:hover {
+  background-color: #FF6B35;
+  color: white;
+}
